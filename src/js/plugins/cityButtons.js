@@ -1,7 +1,7 @@
 import $ from 'jquery'
 import { onLoadHtmlSuccess } from '../core/includes'
 
-const duration = 600
+const duration = 300
 
 function filterByCity(city){
     $('[wm-city]').each(function(i, e) {
