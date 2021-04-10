@@ -30,7 +30,8 @@ module.exports = {
         new MiniCssExtractPlugin({ filename: 'estilo.css' }),
         new CopyWebpackPlugin([
             { context: 'src/', from: '**/*.html' },
-            { context: 'src/', from: 'imgs/**/*' }
+            { context: 'src/', from: 'imgs/**/*' },
+            { context: 'src/', from: '**/*.json'}
         ])
     ],
     module: {
@@ -48,6 +49,9 @@ module.exports = {
         }, {
             test: /.(ttf|otf|eot|svg|woff(2)?)$/,
             use: ['file-loader']
+        }, {
+            test: /\.json$/,
+            use: ['json-loader']
         }]
     }
 }
