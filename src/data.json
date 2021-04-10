@@ -1,138 +1,136 @@
-{
-    "estados": [
-        {
-            "url": "imgs/acre.sgv",
-            "nome": "Acre",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/alagoas.sgv",
-            "nome": "Alagoas",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/amapa.sgv",
-            "nome": "Amapá",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/amazonas.sgv",
-            "nome": "Amazonas",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/bahia.sgv",
-            "nome": "Bahia",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/ceara.sgv",
-            "nome": "Ceará",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/distritoFederal.sgv",
-            "nome": "Distrito Federal",
-            "regiao": "Centro-Oeste"
-        },
-        {
-            "url": "imgs/espiritoSanto.sgv",
-            "nome": "Espírito Santo",
-            "regiao": "Sudeste"
-        },
-        {
-            "url": "imgs/goias.sgv",
-            "nome": "Goiás",
-            "regiao": "Centro-Oeste"
-        },
-        {
-            "url": "imgs/maranhao.sgv",
-            "nome": "Maranhão",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/matoGrosso.sgv",
-            "nome": "Mato Grosso",
-            "regiao": "Centro-Oeste"
-        },
-        {
-            "url": "imgs/matoGrossoDoSul.sgv",
-            "nome": "Mato Grosso do Sul",
-            "regiao": "Centro-Oeste"
-        },
-        {
-            "url": "imgs/minasGerais.sgv",
-            "nome": "Minas Gerais",
-            "regiao": "Sudeste"
-        },
-        {
-            "url": "imgs/para.sgv",
-            "nome": "Pará",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/paraiba.sgv",
-            "nome": "Paraíba",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/parana.sgv",
-            "nome": "Paraná",
-            "regiao": "Sul"
-        },
-        {
-            "url": "imgs/pernambuco.sgv",
-            "nome": "Pernambuco",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/piaui.sgv",
-            "nome": "Piauí",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/rioDeJaneiro.sgv",
-            "nome": "Rio de Janeiro",
-            "regiao": "Sudeste"
-        },
-        {
-            "url": "imgs/rioGrandeDoNorte.sgv",
-            "nome": "Rio Grande do Norte",
-            "regiao": "Nordeste"
-        },{
-            "url": "imgs/rioGrandeDoSul.sgv",
-            "nome": "Rio Grande do Sul",
-            "regiao": "Sul"
-        },
-        {
-            "url": "imgs/rondonia.sgv",
-            "nome": "Rondônia",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/roraima.sgv",
-            "nome": "Roraima",
-            "regiao": "Norte"
-        },
-        {
-            "url": "imgs/santaCatarina.sgv",
-            "nome": "Santa Catarina",
-            "regiao": "Sul"
-        },
-        {
-            "url": "imgs/saoPaulo.sgv",
-            "nome": "São Paulo",
-            "regiao": "Sudeste"
-        },
-        {
-            "url": "imgs/sergipe.sgv",
-            "nome": "Sergipe",
-            "regiao": "Nordeste"
-        },
-        {
-            "url": "imgs/tocantins.sgv",
-            "nome": "Tocantins",
-            "regiao": "Norte"
-        }
-    ]
-}
+[
+    {
+        "url": "imgs/acre.svg",
+        "nome": "Acre",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/alagoas.svg",
+        "nome": "Alagoas",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/amapa.svg",
+        "nome": "Amapá",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/amazonas.svg",
+        "nome": "Amazonas",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/bahia.svg",
+        "nome": "Bahia",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/ceara.svg",
+        "nome": "Ceará",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/distritoFederal.svg",
+        "nome": "Distrito Federal",
+        "regiao": "Centro-Oeste"
+    },
+    {
+        "url": "imgs/espiritoSanto.svg",
+        "nome": "Espírito Santo",
+        "regiao": "Sudeste"
+    },
+    {
+        "url": "imgs/goias.svg",
+        "nome": "Goiás",
+        "regiao": "Centro-Oeste"
+    },
+    {
+        "url": "imgs/maranhao.svg",
+        "nome": "Maranhão",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/matoGrosso.svg",
+        "nome": "Mato Grosso",
+        "regiao": "Centro-Oeste"
+    },
+    {
+        "url": "imgs/matoGrossoDoSul.svg",
+        "nome": "Mato Grosso do Sul",
+        "regiao": "Centro-Oeste"
+    },
+    {
+        "url": "imgs/minasGerais.svg",
+        "nome": "Minas Gerais",
+        "regiao": "Sudeste"
+    },
+    {
+        "url": "imgs/para.svg",
+        "nome": "Pará",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/paraiba.svg",
+        "nome": "Paraíba",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/parana.svg",
+        "nome": "Paraná",
+        "regiao": "Sul"
+    },
+    {
+        "url": "imgs/pernambuco.svg",
+        "nome": "Pernambuco",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/piaui.svg",
+        "nome": "Piauí",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/rioDeJaneiro.svg",
+        "nome": "Rio de Janeiro",
+        "regiao": "Sudeste"
+    },
+    {
+        "url": "imgs/rioGrandeDoNorte.svg",
+        "nome": "Rio Grande do Norte",
+        "regiao": "Nordeste"
+    },{
+        "url": "imgs/rioGrandeDoSul.svg",
+        "nome": "Rio Grande do Sul",
+        "regiao": "Sul"
+    },
+    {
+        "url": "imgs/rondonia.svg",
+        "nome": "Rondônia",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/roraima.svg",
+        "nome": "Roraima",
+        "regiao": "Norte"
+    },
+    {
+        "url": "imgs/santaCatarina.svg",
+        "nome": "Santa Catarina",
+        "regiao": "Sul"
+    },
+    {
+        "url": "imgs/saoPaulo.svg",
+        "nome": "São Paulo",
+        "regiao": "Sudeste"
+    },
+    {
+        "url": "imgs/sergipe.svg",
+        "nome": "Sergipe",
+        "regiao": "Nordeste"
+    },
+    {
+        "url": "imgs/tocantins.svg",
+        "nome": "Tocantins",
+        "regiao": "Norte"
+    }
+]
