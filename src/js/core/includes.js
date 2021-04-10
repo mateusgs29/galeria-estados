@@ -24,30 +24,38 @@ function loadIncludes(parent) {
             }
         })
     })
-} 
+}
+
+function createCard(element){
+    const div = $('<div>').addClass(['col-12', 'col-md-6', 'col-lg-3'])
+    const card = $('<div>').addClass(['card', 'mx-auto', 'mb-4']).css('width', '15rem')
+        .attr('wm-region', element.regiao)
+    const image = $('<img>')
+        .addClass(['card-img-top', 'border-bottom', 'border-secondary'])
+        .attr('src', element.url)
+        .attr('alt', `Bandeira ${element.nome}`)
+    const cardBody = $('<div>').addClass('card-body')
+    const h5 = $('<h5>').addClass('card-title').html(element.nome)
+    const h6 = $('<h6>').addClass(['card-subtitle', 'mb-2', 'text-muted']).html(`Região ${element.regiao}`)
+
+    cardBody.append(h5).append(h6)
+    card.append(image).append(cardBody)
+    div.append(card)
+
+    return div
+}
 
 function loadCards() {
-    $.getJSON('/data.json', function(result) {
-        const cards = []
-        $.each(result, function(i, e) {
-            const div = $('<div>').addClass(['col-12', 'col-md-6', 'col-lg-3'])
-            const card = $('<div>').addClass(['card', 'mx-auto', 'mb-4']).css('width', '15rem')
-            const image = $('<img>')
-                .addClass(['card-img-top', 'border-bottom', 'border-secondary'])
-                .attr('src', e.url)
-                .attr('alt', `Bandeira ${e.nome}`)
-            const cardBody = $('<div>').addClass('card-body')
-            const h5 = $('<h5>').addClass('card-title').html(e.nome)
-            const h6 = $('<h6>').addClass(['card-subtitle', 'mb-2', 'text-muted']).html(`Região ${e.regiao}`)
-
-            cardBody.append(h5).append(h6)
-            card.append(image).append(cardBody)
-            div.append(card)
-
-            cards.push(div)
-        })
-
-        $('[wm-includeCards]').html(cards)
+    $.getJSON({
+        url: '/data.json',
+        success(data) {
+            const cards = []
+            $(data).each(function(i, e) {
+                cards.push(createCard(e))
+            })
+            
+            $('[wm-includeCards]').html(cards)
+        }
     })
 }
 
