@@ -3,10 +3,10 @@ import { onLoadHtmlSuccess } from '../core/includes'
 
 const duration = 300
 
-function filterByCity(city){
-    $('[wm-city]').each(function(i, e) {
-        const isTarget = $(this).attr('wm-city') === city
-            || city === null
+function filterByRegion(region){
+    $('[wm-region]').each(function(i, e) {
+        const isTarget = $(this).attr('wm-region') === region
+            || region === null
         if(isTarget) {
             $(this).parent().removeClass('d-none')
             $(this).fadeIn(duration)
@@ -18,22 +18,22 @@ function filterByCity(city){
     })
 }
 
-$.fn.cityButtons = function() {
+$.fn.regionButtons = function() {
     const cities = new Set
-    $('[wm-city]').each(function(i, e) {
-        cities.add($(e).attr('wm-city'))
+    $('[wm-region]').each(function(i, e) {
+        cities.add($(e).attr('wm-region'))
     })
     
-    const btns = Array.from(cities).map(city => {
+    const btns = Array.from(cities).map(region => {
         const btn = $('<button>')
-            .addClass(['btn', 'btn-info']).html(city)
-        btn.click(e => filterByCity(city))
+            .addClass(['btn', 'btn-info']).html(region)
+        btn.click(e => filterByRegion(region))
         return btn
     })
     
     const btnAll = $('<button>')
         .addClass(['btn', 'btn-info', 'active']).html('Todas')
-    btnAll.click(e => filterByCity(null))
+    btnAll.click(e => filterByRegion(null))
     btns.push(btnAll)
     
     const btnGroup = $('<div>').addClass(['btn-group'])
@@ -44,5 +44,5 @@ $.fn.cityButtons = function() {
 }
 
 onLoadHtmlSuccess(function() {
-    $('[wm-city-buttons]').cityButtons()
+    $('[wm-region-buttons]').regionButtons()
 })
