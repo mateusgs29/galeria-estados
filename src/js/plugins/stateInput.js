@@ -16,7 +16,8 @@ function filterByState(state){
 
 $.fn.stateInput = function() {
     const inputGroup = $('<div>').addClass(['input-group', 'mb-3'])
-    const input = $('<input>').addClass('form-control').attr('type', 'text')
+    const input = $('<input>').addClass('form-control')
+        .attr({'type': 'text', 'placeholder': 'Pesquise pelo nome'})
     const inputGroupAppend = $('<div>').addClass('input-group-append')
     const icone = $('<span>').addClass('input-group-text')
         .append($('<i>').addClass(['fa', 'fa-search']))

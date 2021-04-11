@@ -28,12 +28,12 @@ function loadIncludes(parent) {
 
 function createCard(element){
     const div = $('<div>').addClass(['col-12', 'col-md-6', 'col-lg-3'])
-    const card = $('<div>').addClass(['card', 'mx-auto', 'mb-4']).css('width', '15rem')
+    const card = $('<div>').addClass(['card', 'mx-auto', 'mb-4'])
+        .css('width', '15rem')
         .attr('wm-region', element.regiao)
     const image = $('<img>')
         .addClass(['card-img-top', 'border-bottom', 'border-secondary'])
-        .attr('src', element.url)
-        .attr('alt', `Bandeira ${element.nome}`)
+        .attr({'src': element.url, 'alt': `Bandeira ${element.nome}`})
     const cardBody = $('<div>').addClass('card-body')
     const h5 = $('<h5>').addClass('card-title').html(element.nome)
     const h6 = $('<h6>').addClass(['card-subtitle', 'mb-2', 'text-muted']).html(`Região ${element.regiao}`)
