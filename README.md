@@ -11,7 +11,7 @@ As seguintes ferramentas foram tilizadas na construção do projeto:
 ![HTML5](https://img.shields.io/badge/html%205-0D1117?style=for-the-badge&logo=html5&logoColor=white&labelColor=E34F26)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=white&labelColor=F7DF1E)
 ![SaSS](https://img.shields.io/badge/-SaSS-0D1117?style=for-the-badge&logo=sass&logoColor=white&labelColor=C76494)
-![Node](https://img.shields.io/badge/-NodeJS-0D1117?style=for-the-badge&logo=node.js&logoColor=white&labelColor=018233)
+![NodeJS](https://img.shields.io/badge/-NodeJS-0D1117?style=for-the-badge&logo=node.js&logoColor=white&labelColor=018233)
 ![Bootstrap](https://img.shields.io/badge/-Bootstrap-0D1117?style=for-the-badge&logo=bootstrap&logoColor=white&labelColor=533B78)
 ![jQuery](https://img.shields.io/badge/-jQuery-0D1117?style=for-the-badge&logo=jquery&logoColor=white&labelColor=1066A8)
 ![WebPack](https://img.shields.io/badge/-Webpack-0D1117?style=for-the-badge&logo=webpack&logoColor=white&labelColor=90CEF1)
