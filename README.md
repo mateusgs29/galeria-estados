@@ -6,7 +6,7 @@ Ele consiste em uma galeria de fotos com botões para filtragem.</p>
 <p>A partir do projeto base, as fotos foram trocadas por cards das bandeiras do Brasil, com a foto da bandeira, nome do estado e região. Elas são chamadas de um arquivo json via ajax. Já a filtragem é feita de duas formas diferentes: por botões para filtrar a região e por input para filtrar as cidades.</p>
 
 ## Tecnologias
-As seguintes ferramentas foram tilizadas na construção do projeto:
+As seguintes ferramentas foram utilizadas na construção do projeto:
 
 ![HTML5](https://img.shields.io/badge/html%205-0D1117?style=for-the-badge&logo=html5&logoColor=white&labelColor=E34F26)
 ![JavaScript](https://img.shields.io/badge/-JavaScript-0D1117?style=for-the-badge&logo=javascript&logoColor=white&labelColor=F7DF1E)
