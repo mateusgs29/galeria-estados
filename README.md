@@ -1,6 +1,6 @@
 <h1 align="center">Galeria de fotos</h1>
 
-<p>Projeto realizado durante o curso de Web Moderno com o professor Leonardo Moura Leitão.
+<p>Projeto realizado durante o curso de Web Moderno da Cod3r com o professor Leonardo Moura Leitão.
 Ele consiste em uma galeria de fotos com botões para filtragem.</p>
 
 <p>A partir do projeto base, as fotos foram trocadas por cards das bandeiras do Brasil, com a foto da bandeira, nome do estado e região. Elas são chamadas de um arquivo json via ajax. Já a filtragem é feita de duas formas diferentes: por botões para filtrar a região e por input para filtrar as cidades.</p>
